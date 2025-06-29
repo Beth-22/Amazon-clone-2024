@@ -6,7 +6,7 @@ import styles from "./catagory.module.css";
 export default function Category() {
   return (
     <section className={styles.categorySection}>
-      {catagoryFullinfos.map((infos, i) => (
+      {catagoryFullInfos.map((infos, i) => (
         <CategoryCard key={i} data={infos} />
       ))}
     </section>
